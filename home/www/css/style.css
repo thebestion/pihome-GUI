@@ -7,15 +7,20 @@ padding: 0px;
 font-size: 12px;
 color: #565656;
 font-family:Arial, Helvetica, sans-serif;
-background-color: #f1f1f1;
+background-image:url("../images/bg.png");
+background-repeat: repeat;
+/*background-color: #f1f1f1;*/
 }
 
 #nav{
 background-color: #ffffff;
-border-bottom: 3px solid #d3d3d3;
+border-bottom: 1px solid #d3d3d3;
 text-align: center;
 padding-top: 5px;
 padding-bottom: 2px;
+box-shadow: rgba(0,0,0, 0.3) 0px 0px 5px;
+-moz-box-shadow: rgba(0,0,0, 0.3) 0px 0px 5px;
+-webkit-box-shadow: rgba(0,0,0, 0.3) 0px 0px 5px;
 }
 
 #nav #home{
@@ -36,6 +41,9 @@ background-color: #FFFFFF;
 -moz-border-radius: 4px;
 -webkit-border-radius: 4px;
 border-radius: 8px;
+box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+-moz-box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+-webkit-box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
 }
 
 h1{ font-size: 22px; color: #565656; }
@@ -81,7 +89,7 @@ width: 20%;
 
 .name{
 float: left;
-width: 40%;
+width: 39%;
 text-align: left;
 font-size: 16px;
 }
@@ -91,12 +99,12 @@ font-size: 16px;
 
 .btn{
 float: left;
-width: 39%;
+width: 41%;
 text-align: right;
 }
 
 .btn span{
-margin-right: 15px;
+margin-right: 10px;
 }
 
 .btn span a{
@@ -124,12 +132,21 @@ background-color: #8d8d8d;
 border-radius: 8px;
 padding-top: 10px;
 padding-bottom: 8px;
+box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+-moz-box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+-webkit-box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
 }
 
 #copy{
 margin-top: auto;
 width: 100%;
 text-align: center;
+margin-bottom:10px;
+color: #ffffff;
+}
+
+#copy a{
+color: #ffffff;
 }
 
 
